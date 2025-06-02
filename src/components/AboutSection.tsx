@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const AboutSection = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-amber-50 to-orange-50">
+    <section className="py-20 bg-gradient-to-br from-yellow-50 to-red-50">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
@@ -16,7 +16,7 @@ const AboutSection = () => {
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <Card className="shadow-xl border-amber-200">
+              <Card className="shadow-xl border-orange-200 bg-gradient-to-br from-white to-yellow-50">
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold text-amber-900 mb-6 font-montserrat">
                     Наша история
@@ -42,7 +42,7 @@ const AboutSection = () => {
             </div>
 
             <div className="space-y-6">
-              <Card className="shadow-lg border-amber-200">
+              <Card className="shadow-lg border-orange-200 bg-gradient-to-br from-white to-red-50">
                 <CardContent className="p-6">
                   <h4 className="text-xl font-semibold text-amber-900 mb-3">
                     🍷 Традиции
@@ -53,7 +53,7 @@ const AboutSection = () => {
                 </CardContent>
               </Card>
 
-              <Card className="shadow-lg border-amber-200">
+              <Card className="shadow-lg border-orange-200 bg-gradient-to-br from-white to-red-50">
                 <CardContent className="p-6">
                   <h4 className="text-xl font-semibold text-amber-900 mb-3">
                     🌿 Качество
@@ -64,7 +64,7 @@ const AboutSection = () => {
                 </CardContent>
               </Card>
 
-              <Card className="shadow-lg border-amber-200">
+              <Card className="shadow-lg border-orange-200 bg-gradient-to-br from-white to-red-50">
                 <CardContent className="p-6">
                   <h4 className="text-xl font-semibold text-amber-900 mb-3">
                     ❤️ Гостеприимство

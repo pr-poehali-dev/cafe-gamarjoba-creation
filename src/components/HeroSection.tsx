@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-amber-50 to-orange-100">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3')] bg-cover bg-center opacity-20"></div>
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3')] bg-cover bg-center opacity-30"></div>
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="text-6xl md:text-8xl font-bold text-amber-900 mb-6 font-montserrat">
           Гамарджоба генацвале

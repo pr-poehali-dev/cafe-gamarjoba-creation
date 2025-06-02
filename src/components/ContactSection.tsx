@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const ContactSection = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-amber-900 to-red-800 text-white">
+    <section className="py-20 bg-gradient-to-br from-red-600 via-orange-600 to-yellow-600 text-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
@@ -14,7 +14,7 @@ const ContactSection = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <Card className="bg-white/10 border-white/20 backdrop-blur-sm">
+            <Card className="bg-gradient-to-br from-white/20 to-red-200/20 border-white/30 backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="text-2xl text-white font-montserrat">
                   📍 Адрес
@@ -33,7 +33,7 @@ const ContactSection = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-white/10 border-white/20 backdrop-blur-sm">
+            <Card className="bg-gradient-to-br from-white/20 to-red-200/20 border-white/30 backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="text-2xl text-white font-montserrat">
                   🕐 Режим работы
@@ -49,7 +49,7 @@ const ContactSection = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-white/10 border-white/20 backdrop-blur-sm">
+            <Card className="bg-gradient-to-br from-white/20 to-red-200/20 border-white/30 backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="text-2xl text-white font-montserrat">
                   📞 Телефон
@@ -65,7 +65,7 @@ const ContactSection = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-white/10 border-white/20 backdrop-blur-sm">
+            <Card className="bg-gradient-to-br from-white/20 to-red-200/20 border-white/30 backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="text-2xl text-white font-montserrat">
                   💌 Email
