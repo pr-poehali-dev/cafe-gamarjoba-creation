@@ -3,15 +3,15 @@ import { Button } from "@/components/ui/button";
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-amber-50 to-orange-100">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3')] bg-cover bg-center opacity-30"></div>
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3')] bg-cover bg-center opacity-50"></div>
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <h1 className="text-6xl md:text-8xl font-bold text-amber-900 mb-6 font-montserrat">
+        <h1 className="text-6xl md:text-8xl font-bold text-white mb-6 font-montserrat drop-shadow-lg">
           Гамарджоба генацвале
         </h1>
-        <p className="text-2xl md:text-3xl text-amber-800 mb-4 font-open-sans">
+        <p className="text-2xl md:text-3xl text-white mb-4 font-open-sans drop-shadow-md">
           Грузинское кафе с душой
         </p>
-        <p className="text-lg md:text-xl text-amber-700 mb-8 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-lg md:text-xl text-gray-100 mb-8 max-w-2xl mx-auto leading-relaxed drop-shadow-md">
           Добро пожаловать в мир настоящей грузинской кухни! Здесь каждое блюдо
           готовится с любовью, а каждый гость становится частью большой
           грузинской семьи.
@@ -26,7 +26,7 @@ const HeroSection = () => {
           <Button
             size="lg"
             variant="outline"
-            className="border-amber-800 text-amber-800 hover:bg-amber-100 px-8 py-4 text-lg"
+            className="border-white text-white hover:bg-white hover:text-amber-800 px-8 py-4 text-lg"
           >
             Забронировать стол
           </Button>
